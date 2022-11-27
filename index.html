@@ -1,89 +1,91 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <link rel="stylesheet" media="screen" href="assets/css/style.css">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <link rel="stylesheet" media="screen" href="assets/css/style.css" />
     <title>Current Time!</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div class="clock">
-        <div class="hr">
-            <div class="strip">
-                <div class="number">0</div>
-                <div class="number">1</div>
-                <div class="number">2</div>
-            </div>
-            <div class="strip">
-                <div class="number">0</div>
-                <div class="number">1</div>
-                <div class="number">2</div>
-                <div class="number">3</div>
-                <div class="number">4</div>
-                <div class="number">5</div>
-                <div class="number">6</div>
-                <div class="number">7</div>
-                <div class="number">8</div>
-                <div class="number">9</div>
-            </div>
+      <div class="hr">
+        <div class="strip">
+          <div class="number">0</div>
+          <div class="number">1</div>
+          <div class="number">2</div>
         </div>
-        <div class="min">
-            <div class="strip">
-                <div class="number">0</div>
-                <div class="number">1</div>
-                <div class="number">2</div>
-                <div class="number">3</div>
-                <div class="number">4</div>
-                <div class="number">5</div>
-            </div>
-            <div class="strip">
-                <div class="number">0</div>
-                <div class="number">1</div>
-                <div class="number">2</div>
-                <div class="number">3</div>
-                <div class="number">4</div>
-                <div class="number">5</div>
-                <div class="number">6</div>
-                <div class="number">7</div>
-                <div class="number">8</div>
-                <div class="number">9</div>
-            </div>
+        <div class="strip">
+          <div class="number">0</div>
+          <div class="number">1</div>
+          <div class="number">2</div>
+          <div class="number">3</div>
+          <div class="number">4</div>
+          <div class="number">5</div>
+          <div class="number">6</div>
+          <div class="number">7</div>
+          <div class="number">8</div>
+          <div class="number">9</div>
         </div>
-        <div class="sec">
-            <div class="strip">
-                <div class="number">0</div>
-                <div class="number">1</div>
-                <div class="number">2</div>
-                <div class="number">3</div>
-                <div class="number">4</div>
-                <div class="number">5</div>
-            </div>
-            <div class="strip">
-                <div class="number">0</div>
-                <div class="number">1</div>
-                <div class="number">2</div>
-                <div class="number">3</div>
-                <div class="number">4</div>
-                <div class="number">5</div>
-                <div class="number">6</div>
-                <div class="number">7</div>
-                <div class="number">8</div>
-                <div class="number">9</div>
-            </div>
+      </div>
+      <div class="min">
+        <div class="strip">
+          <div class="number">0</div>
+          <div class="number">1</div>
+          <div class="number">2</div>
+          <div class="number">3</div>
+          <div class="number">4</div>
+          <div class="number">5</div>
         </div>
+        <div class="strip">
+          <div class="number">0</div>
+          <div class="number">1</div>
+          <div class="number">2</div>
+          <div class="number">3</div>
+          <div class="number">4</div>
+          <div class="number">5</div>
+          <div class="number">6</div>
+          <div class="number">7</div>
+          <div class="number">8</div>
+          <div class="number">9</div>
+        </div>
+      </div>
+      <div class="sec">
+        <div class="strip">
+          <div class="number">0</div>
+          <div class="number">1</div>
+          <div class="number">2</div>
+          <div class="number">3</div>
+          <div class="number">4</div>
+          <div class="number">5</div>
+        </div>
+        <div class="strip">
+          <div class="number">0</div>
+          <div class="number">1</div>
+          <div class="number">2</div>
+          <div class="number">3</div>
+          <div class="number">4</div>
+          <div class="number">5</div>
+          <div class="number">6</div>
+          <div class="number">7</div>
+          <div class="number">8</div>
+          <div class="number">9</div>
+        </div>
+      </div>
     </div>
     <div id="mySidebar" class="sidebar">
-        <a href="#">Theam</a>
-        <a href="#">Timer</a>
-        <a href="#">Help</a>
-        <a href="#">Exit</a>
-      </div>
+      <a href="#">Timer</a>
+      <a href="#">Help</a>
+      <a href="#">Exit</a>
+    </div>
     <script src="clock.js"></script>
-</body>
-
+  </body>
 </html>

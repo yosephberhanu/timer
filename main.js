@@ -3,7 +3,7 @@ function createWindow() {
     const win = new BrowserWindow({
         title: 'Time',
         fullscreen: true
-        icon: path.join(app.getAppPath(), 'assets/imgs/clock.png'),
+        // icon: path.join(app.getAppPath(), 'assets/imgs/clock.png'),
     })
 
     win.loadFile('index.html');
@@ -30,4 +30,3 @@ app.on('window-all-closed', function () {
     if (process.platform !== 'darwin') 
         app.quit()
 })
-
