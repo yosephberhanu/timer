@@ -1,16 +1,18 @@
-## Timer
+# Timer
 
-### About
+![Preview of timer](assets/imgs/timer.png "Timer")
+
+## About
 
 A simple full screen clock.
 
-### How to start
+## How to start
 
 ```npm install``` - install dependencies
 
 ```npm start``` - Start
 
-### Keyboard Shortcuts
+## Keyboard Shortcuts
 
 ```ctl+X``` - Close
 
@@ -18,11 +20,11 @@ A simple full screen clock.
 
 ```ctl+N``` - Close side menu
 
-### Installers
+## Installers
 
 To build installers for different OSs run one of the following
 
-``` npm run make-linux ``` - build debian installer
+``` npm run make-linux ``` - build Debian installer
 
 ``` npm run make-mac ``` - build mac os app
 
